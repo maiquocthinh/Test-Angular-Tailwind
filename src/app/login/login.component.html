@@ -1,0 +1,43 @@
+<div class="flex justify-center my-4">
+  <div class="rounded-md shadow-xl bg-white px-7 py-5 mx-12 min-w-[385px]">
+    <div class="flex flex-col items-center pb-10">
+      <h2 class="text-4xl font-bold my-5">Đăng Nhập</h2>
+      <p class="text-base">Nếu bạn chưa có tài khoản? <a routerLink="/register" class="text-purple-700">Tạo tài khoản
+          mới</a></p>
+    </div>
+    <div class="mb-4">
+      <div>
+        <label for="email" class="block text-gray-600 ml-1 my-2">Email</label>
+        <input required type="text" name="email" id="email" placeholder="Email"
+          class="min-w-full outline-none rounded-md border-2 border-slate-200 h-11 px-2 focus:border-purple-700" />
+      </div>
+      <div>
+        <label class="block text-gray-600 ml-1 my-2">Mật khẩu</label>
+        <input required type="password" placeholder="Mật khẩu"
+          class="min-w-full outline-none rounded-md border-2 border-slate-200 h-11 px-2 focus:border-purple-700" />
+      </div>
+      <div class="ml-1 my-2">
+        <a routerLink="/forgot" class="underline">Quên mật khẩu?</a>
+      </div>
+    </div>
+    <div class="flex flex-col">
+      <button class="block text-white font-semibold bg-purple-700 h-10 rounded-full">Đăng nhập</button>
+      <div class="py-4 flex items-center">
+        <div class="bg-gray-300 w-[45%] h-[1px]"></div>
+        <p class="px-4">hoặc</p>
+        <div class="bg-gray-300 w-[45%] h-[1px]"></div>
+      </div>
+      <div class="flex justify-between">
+        <button class="bg-[#3b5998] rounded-full p-[6px] w-[47%] flex justify-center items-center">
+          <img class="h-5 bg-white rounded-full p-[3px]"
+            src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-color-icon.png">
+        </button>
+        <button
+          class="bg-white rounded-full p-[6px] w-[47%] flex justify-center items-center border-2 border-x-gray-100">
+          <img class="h-5 bg-white rounded-full  p-[1px]"
+            src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-color-icon.png">
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
