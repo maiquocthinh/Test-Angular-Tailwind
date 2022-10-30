@@ -10,14 +10,17 @@ import { ForgotComponent } from './forgot/forgot.component';
 const routes: Routes = [
   {
     path: 'login',
+    title: 'Đăng nhập',
     component: LoginComponent
   },
   {
     path: 'register',
+    title: 'Đăng ký',
     component: RegisterComponent
   },
   {
     path: 'forgot',
+    title: 'Quên mật khẩu',
     component: ForgotComponent
   },
   {
